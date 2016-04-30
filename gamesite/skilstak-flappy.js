@@ -22,7 +22,7 @@ var CONFIG = {
         "velocity": -420,
         "frame": 0,
         "rotate": -40,
-        "norotate": true
+        "norotate": false
       },
       "end": {
         "offset": 100,
@@ -30,7 +30,7 @@ var CONFIG = {
         "scale": 1
       },
       "animation": {
-        "rate": 0 
+        "rate": 0
       }
   },
   "sign": {
@@ -60,7 +60,7 @@ var CONFIG = {
     }
   },
   "highscore": {
-    "text": "High Score: ",
+    "text": "Top Flapper: ",
     "offset": 250,
     "key": "skilstak-flappy-highscore",
     "style": {
@@ -70,7 +70,7 @@ var CONFIG = {
     } 
   },
   "gameover": {
-    "text": "Game\nOver",
+    "text": "You're\nBad",
     "offset": -150,
     "style": {
       "font": "100px sans-serif", 
