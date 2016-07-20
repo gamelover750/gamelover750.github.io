@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+import skilstak.colors as c
+
+print(c.cl + c.x, end="")
+
+print(c.multi("Hello, what is your name?"))
+name = input(c.g + "> " + c.b)
+print(c.o + "Hello there, " + c.v + name)
